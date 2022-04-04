@@ -16,7 +16,7 @@ namespace BAOCAO
         public Form1()
         {
             InitializeComponent();
-            txtTK.Text = "admin";
+            txtTK.Text = "xuanthanh";
             txtMK.Text = "123";
         }
         public Form1(string tk,string mk)

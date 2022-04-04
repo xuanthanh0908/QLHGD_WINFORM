@@ -299,7 +299,7 @@ namespace BAOCAO.GUI
             this.CBQuyen.FormattingEnabled = true;
             this.CBQuyen.Items.AddRange(new object[] {
             "admin",
-            "quản lý"});
+            "quanly"});
             this.CBQuyen.Location = new System.Drawing.Point(241, 119);
             this.CBQuyen.Name = "CBQuyen";
             this.CBQuyen.Size = new System.Drawing.Size(247, 33);

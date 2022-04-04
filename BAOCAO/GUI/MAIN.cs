@@ -32,7 +32,7 @@ namespace BAOCAO.GUI
             parameters.Add(new SqlParameter("@tk", TK));
             parameters.Add(new SqlParameter("@mk", MK));
             DataSet data = conDB.get_data(query, "TK", parameters);
-            if (data.Tables["TK"].Rows[0].ItemArray.GetValue(0).Equals("quanly"))
+            if (data.Tables["TK"].Rows[0].ItemArray.GetValue(0).Equals("admin"))
                 dem++;
             return dem;
         }

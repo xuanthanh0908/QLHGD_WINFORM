@@ -169,5 +169,7 @@ namespace BAOCAO.GUI
             DataSet dataSet = ConnDB.get_data(sql, "TKID", parameters);
             dgvTK.DataSource = dataSet.Tables["TKID"];
         }
+
+      
     }
 }
